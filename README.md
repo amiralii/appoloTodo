@@ -1,5 +1,5 @@
 # appoloTodo
-Todo-list sample with Nodejs, Apollo, Reactjs
+Todo-list sample with Nodejs, Apollo, Reactjs in microservice architecture
 
 
 Run with Docker

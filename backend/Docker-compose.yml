@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  note-service:
+    build: ./note-service
+    image: 'todo-back'
+    volumes:
+      -  ./backend:/var/www/backend/note-service
+    ports:
+      - 3000:3000  
+
+
+  user-service:
+    build: ./user-service
+    image: 'todo-front'
+    volumes:
+      - ./frontend:/var/www/backend/note-service
+    ports:
+      - 4000:3000

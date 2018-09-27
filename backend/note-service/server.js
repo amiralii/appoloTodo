@@ -3,7 +3,7 @@ const express = require('express')
 const PORT = process.env.PORT || 3000
 
 const graphqlHTTP = require('express-graphql')
-const schema = require('./graphQL/Schema')
+const schema = require('../gateway/note/graphQL/Schema')
 
 const cors = require('cors')
 const app = express()

@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:10
 
-WORKDIR /var/www/frontend
+WORKDIR /var/www/backend/note-service
 
 COPY . .
 
@@ -8,6 +8,9 @@ RUN npm install --prod
 
 RUN npm install nodemon -g
 
-RUN npm run client
+RUN npm run server:dev
 
-EXPOSE 2000
+EXPOSE 3000
+
+
+

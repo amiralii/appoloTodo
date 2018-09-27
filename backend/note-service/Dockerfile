@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:10
 
-WORKDIR /var/www/backend
+WORKDIR /var/www/backend/note-service
 
 COPY . .
 
