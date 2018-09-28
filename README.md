@@ -15,7 +15,7 @@ Or with NPM:
                   
       frontend folder :   
                   npm install
-                  npm run client
+                  npm start
     
 
 Access to server:
