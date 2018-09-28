@@ -10,7 +10,7 @@ RUN npm install nodemon -g
 
 RUN npm run server:dev
 
-EXPOSE 3000
+EXPOSE 2000
 
 
 

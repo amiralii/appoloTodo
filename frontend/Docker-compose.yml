@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+
+  frontend:
+    build: ./
+    image: 'todo-front'
+    volumes:
+      - ./:/var/www/frontend
+    ports:
+      - 3000:3000

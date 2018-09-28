@@ -1,6 +1,6 @@
 const bodyparser = require('body-parser')
 const express = require('express')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 2000
 
 const graphqlHTTP = require('express-graphql')
 const schema = require('../gateway/note/graphQL/Schema')
